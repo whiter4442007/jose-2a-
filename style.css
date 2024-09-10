@@ -1,0 +1,36 @@
+:root{
+
+    --cor-de-fundo: #EBECEE;
+
+}
+
+body{
+
+    background-color: var(--cor-de-fundo);
+
+}
+
+h1{
+    background-color: white;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block; /*habilita a manipulação de tamanho*/
+    background-image: url("img/Menu.svg"); /*adiciona plano de fundo de imagem*/
+    background-repeat: no-repeat;/*tira a repetição da imagem*/
+    background-position: center;/*centraliza a imagem*/
+
+}
+
+.cabecalho{
+    background-color: var(#ffffff); /*coloca um fundo branco*/
+    display: flex;/*muda a orientação de hrizontal para vertical*/
+    justify-content: space-between;/*joga uma div para a esquerda e outra para direita*/
+    align-items: center;/*centraliza na vertical como centro*/
+}
+.cabecalho__imagem{
+    width: 24px;
+    height: 24px;
+}
